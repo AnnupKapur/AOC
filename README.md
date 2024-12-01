@@ -20,7 +20,7 @@ This repository is organized as follows:
  ├── 📂 2024
  │    ├── 📂 JS
  │    │    ├── 📂 Day1
- │    │    │   ├── solution.py
+ │    │    │   ├── solution.js
  │    │    │   ├── input.txt
  │    │    │   └── README.md
  │    │    └── ...
@@ -32,7 +32,7 @@ This repository is organized as follows:
  │    │    └── ...
  │    ├── 📂 Rust
  │    │    ├── 📂 Day1
- │    │    │   ├── solution.py
+ │    │    │   ├── solution.rs
  │    │    │   ├── input.txt
  │    │    │   └── README.md
  │    │    └── ...
