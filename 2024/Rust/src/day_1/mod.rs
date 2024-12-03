@@ -31,7 +31,7 @@ pub fn solution_a () {
 
     let sum: i32 = diff.iter().sum();
 
-    println!("{}", sum);
+    println!("Solution A: {}", sum);
 
 }
 
@@ -71,8 +71,5 @@ pub fn solution_b () {
 
     let sum: i32 = multiples.iter().sum();
 
-    println!("{}", sum);
+    println!("Solution B: {}", sum);
 }
-
-
-
