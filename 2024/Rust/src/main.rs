@@ -16,4 +16,5 @@ fn main() {
     println!("----------------------------");
     println!("Day 3:");
     day_3::solution_a();
+    day_3::solution_b();
 }
