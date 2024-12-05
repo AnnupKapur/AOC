@@ -1,4 +1,4 @@
 # Rust
-./Rust/target/
-./Rust/debug/
-./Rust/**/*.rs.bk
+/Rust/target/**
+/Rust/debug/**
+/Rust/**/*.rs.bk
