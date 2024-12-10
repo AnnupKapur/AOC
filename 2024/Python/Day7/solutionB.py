@@ -17,24 +17,25 @@ def operator_permutations(row_length):
 
     short = operator_permutations(row_length - 1)
     result = []
-
     for s in short:
         result.append(s + "+")
         result.append(s + "*")
-
+        result.append(s + "|")
     return result
 
 def evalute_equation(equation):
     result = 1
     operator = "*"
     for pos in equation:
-        if pos == "+" or pos == "*":
+        if pos == "+" or pos == "*" or pos == "|":
             operator = pos
         else:
             if operator == "+":
                 result += pos
-            else:
+            elif operator == "*":
                 result *= pos
+            else:
+                result = int(f"{result}{pos}")
     return result
 
 def evaluate_check_rows(parsed):
@@ -57,8 +58,6 @@ def evaluate_check_rows(parsed):
                 break
 
     return result_sum
-
-
 
 data = ""
 with open("../../data/day7.txt") as file:
