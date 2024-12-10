@@ -23,7 +23,6 @@ function parseInput(input) {
 function calculateAnswer(equation) {
   let res = 1;
   let op = "*";
-  //console.log(equation);
   for (let i = 0; i < equation.length; i++) {
     if (equation[i] === "+" || equation[i] === "*" || equation[i] === "|") {
       op = equation[i];
