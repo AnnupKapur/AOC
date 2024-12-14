@@ -13,9 +13,11 @@ def parse_data(data):
 
     return parsed
 
+# check if the cell is within the bounds of the grid
 def in_bounds(r, c, rows, cols):
     return r >= 0 and r < rows and c >= 0 and c < cols
 
+# count the number of antinodes
 def count_antinodes(data):
     rows = len(data.split("\n")[:-1])
     cols = len(list(data.split("\n")[0]))
