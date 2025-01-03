@@ -34,6 +34,7 @@ function blinkOnce(row) {
 
 function blinkNTimes(row, n) {
   for (let i = 0; i < n; i++) {
+    console.log("Blink: ", i);
     row = blinkOnce(row);
   }
   return row;
